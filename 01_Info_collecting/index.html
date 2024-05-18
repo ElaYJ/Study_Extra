@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MyFirstHTML</title>
+</head>
+
+<style>
+	h1{
+		color: red
+	}
+	header{
+		font-size: 38px;
+	}
+	div{
+		background-color: antiquewhite;
+		margin-bottom: 30px;
+	}
+</style>
+
+<body>
+	<h1>제목</h1>
+	<header>타이틀</header>
+
+	<div class="'parent">
+		<div class="child1">id: yunjae</div>
+		<div id="child2">pw: test</div>
+	</div>
+	<div>
+		<input type="text" value="ID">
+		<input type="password">
+	</div>
+
+	<input type="button" value="로그인">
+	<button onclick="login_click()">로그인</button>
+	<br></br>
+	<a href="http://www.naver.com">고객센터</a>
+</body>
+
+<script>
+	function login_click() {
+		alert("로그인 버트 클릭")
+	}
+</script>
+
+</html>
